@@ -1,7 +1,70 @@
 <!DOCTYPE html>
-<html>
-<head><meta charset="utf-8"><title>Coming soon</title></head>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+scripts-and-tui</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    max-width: 46rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    line-height: 1.65;
+  }
+  a { color: #0969da; }
+  @media (prefers-color-scheme: dark) { a { color: #4493f8; } }
+  pre {
+    background: #f6f8fa; border-radius: 6px; padding: 1rem;
+    overflow-x: auto; font-size: 0.875rem;
+  }
+  @media (prefers-color-scheme: dark) { pre { background: #151b23; } }
+  code { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+  table { border-collapse: collapse; }
+  th, td { border: 1px solid #d0d7de; padding: 0.375rem 0.75rem; }
+  th { background: #f6f8fa; }
+  @media (prefers-color-scheme: dark) { th, td { border-color: #3d444d; } th { background: #151b23; } }
+  h1, h2 { border-bottom: 1px solid #d0d7de; padding-bottom: 0.3em; }
+  @media (prefers-color-scheme: dark) { h1, h2 { border-color: #3d444d; } }
+</style>
+</head>
 <body>
-<h1>This page does not have an index.html set up yet!</h1>
+<h1>scripts-and-tui</h1>
+<p>A grab-bag of scripts and terminal user interface (TUI) apps — Python, Bash, Node, and PHP utilities for finance, calendars, content management, and terminal fun. Each script is stored as a markdown file; open one, copy the code, and run it.</p>
+<p><strong>Repository:</strong> <a href="https://github.com/razodin137/scripts-and-tui">razodin137/scripts-and-tui</a></p>
+<h2>Terminal UIs</h2>
+<ul>
+<li><a href="./coffee-shop-tui.md">coffee-shop-tui.md</a> / <a href="./coffee-shop-tui-version2.md">coffee-shop-tui-version2.md</a> — an urwid coffee-shop POS system with rich product catalogs.</li>
+<li><a href="./shop.md">shop.md</a> — a simpler urwid storefront.</li>
+<li><a href="./stock-terminalversion3.md">stock-terminalversion3.md</a> — a simulated stock market dashboard in curses.</li>
+<li><a href="./scrollcal.md">scrollcal.md</a>, <a href="./python-calscroll.md">python-calscroll.md</a>, <a href="./interactive_calendar.md">interactive_calendar.md</a>, <a href="./interactive_ics_calendar.md">interactive_ics_calendar.md</a> — scrollable curses calendars, including an ICS-friendly variant.</li>
+<li><a href="./terminal-slideshow11111.md">terminal-slideshow11111.md</a> — a raw-terminal (termios) slideshow player.</li>
+<li><a href="./pure-node-terminal(1).md">pure-node-terminal(1).md</a> — a pure-Node TCP terminal with ANSI colors.</li>
+<li><a href="./python-cli.md">python-cli.md</a> — a Click-based SQLite content manager CLI.</li>
+</ul>
+<h2>Productivity &amp; automation</h2>
+<ul>
+<li><a href="./categorize_downloads.md">categorize_downloads.md</a> — bash script that sorts your Downloads folder by file type.</li>
+<li><a href="./mouse_click_timer.md">mouse_click_timer.md</a> — timed auto-clicker via pyautogui.</li>
+<li><a href="./todo.md">todo.md</a> / <a href="./todogui.md">todogui.md</a> — a todo list, with a PySimpleGUI front-end.</li>
+<li><a href="./newpostmai.md">newpostmai.md</a> — create new post files in an inbox directory.</li>
+<li><a href="./installexiftool.md">installexiftool.md</a> — installer for ExifTool 13.12.</li>
+</ul>
+<h2>Content &amp; publishing</h2>
+<ul>
+<li><a href="./whisper-video-metadata.md">whisper-video-metadata.md</a> — transcribe videos with Whisper and embed the metadata into MP4s (moviepy + mutagen).</li>
+<li><a href="./yamler-existingposts.md">yamler-existingposts.md</a>, <a href="./yamlyesterscript1.md">yamlyesterscript1.md</a> — convert existing posts to YAML front matter.</li>
+<li><a href="./ghostsetup-full.md">ghostsetup-full.md</a> — full bash setup for a Ghost CMS install, including a dedicated Linux user.</li>
+<li><a href="./php-dashboard.md">php-dashboard.md</a> — a PHP content/analytics dashboard backed by SQLite.</li>
+<li><a href="./setup_bfl_api.md">setup_bfl_api.md</a> — scaffolding for calling the BFL API (create request / poll result scripts).</li>
+</ul>
+<h2>Finance</h2>
+<ul>
+<li><a href="./2025-01-20-god-account-double-entry.md">2025-01-20-god-account-double-entry.md</a> — double-entry accounting from CSV exports, with live currency conversion to THB.</li>
+<li><a href="./ani-finance.md">ani-finance.md</a> — a SQLite personal finance tracker on the Desktop.</li>
+</ul>
+
 </body>
 </html>
